@@ -9,12 +9,12 @@ digite a forma de pagamento"""))
 
 
 match: Forma_de_pagamento
-case "1": 
+case  
         #aplicando 10% de desconto
 desconto = valor_produto * 0.10
     case "2":
     ...
-    case _: 
+    case 3
 print("Opção inválida.")
 
 
